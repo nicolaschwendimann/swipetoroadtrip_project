@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:swipetoroadtrip/Favoriten/favouritespage.dart';
 import 'package:swipetoroadtrip/LogOn/mainscreen.dart';
 
@@ -305,20 +306,19 @@ class RoadtripCard extends StatelessWidget {
                     color: Colors.white,
                   ),
                   onPressed: () async {
-                    if (await canLaunch(roadtripMapURL)) {
+                    var res = await canLaunch(roadtripMapURL);
+                    print(roadtripMapURL);
+                    print(res);
+                    /* if (await canLaunch(roadtripMapURL)) {
                       await launch(roadtripMapURL);
                     } else {
                       throw 'Could not launch $roadtripMapURL';
-                    }
+                    }*/
                   }),
             ],
           )),
     );
   }
-
-  canLaunch(roadtripMapURL) {}
-
-  launch(roadtripMapURL) {}
 }
 
 //RoadtripCard Content Container endet hier
