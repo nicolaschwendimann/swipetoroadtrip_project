@@ -40,7 +40,7 @@ class SecondScreen extends StatelessWidget {
             child: SizedBox(
               width: MediaQuery.of(context).size.width,
               height: 50.0,
-              child: ApplyButton(),
+              child: applyButton(),
             ),
           )
         ],
@@ -86,7 +86,7 @@ class SecondScreen extends StatelessWidget {
   }
 }
 
-Widget ApplyButton() {
+Widget applyButton() {
   return ClipRRect(
     borderRadius: BorderRadius.only(
       topLeft: Radius.circular(100.0),
