@@ -1,12 +1,9 @@
 # swipetoroadtrip
 
-A new Flutter project.
-
-## Getting Started
-
 The project "swpieToRoadtrip" contains a Flutter App which is primarily designed for Android devices.
-
 "SwipeToRoadtrip" an app for all roadtrip fans! Swipe through a large deck of roadtrips in Switzerland and decide easily and intuitively which trip you will take tomorrow. 
+
+## About the project
 
 What are the main features of the app?
 1. the deck of cards with the Swipe function Analogue Tinder is supposed to show the user instagram pictures with destinations, which he can either "left" or "disliken". 
