@@ -1,0 +1,4 @@
+#Mon Nov 09 13:25:06 CET 2020
+base.0=C\:\\Users\\nicol\\switchdrive\\Global Share\\tekokakka\\7 Sem\\Mobile App Development\\swipetoroadtrip\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
