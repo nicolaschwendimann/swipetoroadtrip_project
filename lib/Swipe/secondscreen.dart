@@ -306,14 +306,14 @@ class RoadtripCard extends StatelessWidget {
                     color: Colors.white,
                   ),
                   onPressed: () async {
-                    var res = await canLaunch(roadtripMapURL);
-                    print(roadtripMapURL);
-                    print(res);
-                    /* if (await canLaunch(roadtripMapURL)) {
+                    //var res = await canLaunch(roadtripMapURL);
+                    //print(roadtripMapURL);
+                    //print(res);
+                    if (await canLaunch(roadtripMapURL)) {
                       await launch(roadtripMapURL);
                     } else {
                       throw 'Could not launch $roadtripMapURL';
-                    }*/
+                    }
                   }),
             ],
           )),
