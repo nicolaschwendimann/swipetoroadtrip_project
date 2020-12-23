@@ -1,3 +1,15 @@
+/* Requirements for this page called secondscreen.dart
+
+Widget applyButton()
+  -  By pressing on Button "add to favourites" 
+     the heart-icon should turn into a filled-heart-icon in color red
+  -  also the active card content roadtripAreaTag, roadtripMapURL from 
+     RoadtripCard() should be added into a list[] stored into the favouritespage.dart file
+  -  as soon the list[] contains 3 elements a popup will display and inform the user "Not more than 3 favourites allowed"   
+Drawer:
+  -  the drawer() works well at the moment.
+  -  this function enables the opportunity to navigate through each page.
+*/
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -74,7 +86,7 @@ class SecondScreen extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => FavouritesPage()));
               }),
           ListTile(
-              title: Text('Radius ändern'),
+              title: Text('Start'),
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => MainScreen()));
@@ -99,7 +111,7 @@ Widget applyButton() {
           Padding(
             padding: const EdgeInsets.only(left: 16.0),
             child: Text(
-              "zu Favoriten hinzufügen",
+              "add to favourites",
               style: TextStyle(color: Colors.white, fontSize: 24.0),
             ),
           ),
@@ -151,7 +163,7 @@ class _MyCardsState extends State<MyCards> with SingleTickerProviderStateMixin {
         roadtripImage:
             "https://instagram.fzrh2-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/c0.180.1440.1440a/s640x640/122016155_190247995898885_276649956325537352_n.jpg?_nc_ht=instagram.fzrh2-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=MVs5Nd0x12kAX-2RLy6&_nc_tp=24&oh=6664b5c89bda440e2c22573fefe211cb&oe=5FD0122B",
         roadtripAreaTag: "Furkapass",
-        roadtripMapURL: "https://goo.gl/maps/4LJ79MpRgBodmEqV8"),
+        roadtripMapURL: "https://goo.gl/maps/4LJ79MpRgBodmEqV8",),
     RoadtripCard(
         index: 3,
         color1: Color.fromRGBO(255, 224, 140, 1),
