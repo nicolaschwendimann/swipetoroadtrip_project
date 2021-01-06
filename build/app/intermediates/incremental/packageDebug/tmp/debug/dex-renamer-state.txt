@@ -1,4 +1,4 @@
-#Wed Dec 23 15:25:31 CET 2020
-base.0=C\:\\Users\\schn\\Downloads\\swipetoroadtrip_project-master\\swipetoroadtrip_project-master\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Wed Jan 06 16:16:12 CET 2021
+base.0=C\:\\appDev\\swipetoroadtrip_project\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

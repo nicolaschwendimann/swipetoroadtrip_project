@@ -1,3 +1,14 @@
+/* Requirements for this page called swipeFunctionality.dart
+
+- When pressing the button "add to favourites", the heart icon should change into a filled heart icon.
+- furthermore, the active map content roadtripAreaTag, roadtripMapURL from RoadtripCard() shall be entered into a list[],
+  which is stored in the file favouritespage.dart.
+- as soon as the list[] contains 3 elements, a popup is displayed informing the user "No more than 3 favourites allowed".   
+- It should be possible to navigate through all pages with a sidebar navigation.
+- URLs for map content and Instagram images shall be outsourced to a separate file to ensure easier management.
+
+*/
+
 import 'package:flutter/material.dart';
 import 'package:flutter_tindercard/flutter_tindercard.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

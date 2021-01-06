@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\schn\\Downloads\\swipetoroadtrip_project-master\\swipetoroadtrip_project-master\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\appDev\\swipetoroadtrip_project\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\schn\\Downloads\\swipetoroadtrip_project-master\\swipetoroadtrip_project-master\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\appDev\\swipetoroadtrip_project\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
